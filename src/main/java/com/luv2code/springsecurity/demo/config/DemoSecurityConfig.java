@@ -17,8 +17,8 @@ public class DemoSecurityConfig
         User.UserBuilder userBuilder = User.withDefaultPasswordEncoder();
         auth.inMemoryAuthentication()
                 .withUser(userBuilder.username("Bhavya").password("Arora").roles("EMPLOYEE"))
-                .withUser(userBuilder.username("Rishab").password("Jolly").roles("EMPLOYEE"))
-                .withUser(userBuilder.username("Bhavishya").password("Mittal").roles("EMPLOYEE"));
+                .withUser(userBuilder.username("Rishab").password("Jolly").roles("EMPLOYEE", "MANAGER"))
+                .withUser(userBuilder.username("Bhavishya").password("Mittal").roles("EMPLOYEE", "ADMIN"));
 
     }
 
