@@ -68,6 +68,18 @@
 			<version>5.0.0.RELEASE</version>
 		</dependency>
 
+		<dependency>
+			<groupId></groupId>
+			<artifactId></artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId></groupId>
+			<artifactId></artifactId>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<!-- TO DO: Add support for Maven WAR Plugin -->

@@ -25,14 +25,18 @@ public class DemoSecurityConfig
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-            .anyRequest().authenticated()
+                .antMatchers("/").hasRole("EMPLOYEE")
+                .antMatchers("/leaders/**").hasRole("MANAGER")
+                .antMatchers("/systems/**").hasRole("EMPLOYEE")
         .and()
             .formLogin()
             .loginPage("/loginPage")
             .loginProcessingUrl("/authenticateUser")
             .permitAll()
         .and()
-            .logout().permitAll();
+            .logout().permitAll()
+        .and()
+            .exceptionHandling().accessDeniedPage("/access-denied");
 
     }
 }

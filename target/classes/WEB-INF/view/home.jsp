@@ -8,6 +8,18 @@
 
 <body>
 
+<s:authorize access="hasRole('MANAGER')">
+	<p>
+		<a href="${pageContext.request.contextPath}/leaders">Leadership Meeting</a>
+		Only for Manager peeps
+	</p>
+</s:authorize>
+<s:authorize access="hasRole('ADMIN')">
+	<p>
+		<a href="${pageContext.request.contextPath}/systems">Systems Meeting</a>
+		Only for ADMIN peeps
+	</p>
+</s:authorize>
 	<!-- display the user name and role -->
 	<p>
 		User : <s:authentication property="principal.username" />
