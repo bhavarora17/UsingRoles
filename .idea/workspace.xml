@@ -7,24 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e2cae9-53a0-46f4-9b29-a7b4de336b9c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/systems.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/DemoController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/luv2code/springsecurity/demo/controller/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/view/home.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/view/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/controller/DemoController.class" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/controller/DemoController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/luv2code/springsecurity/demo/controller/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo.war" afterPath="$PROJECT_DIR$/target/spring-security-demo.war" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/WEB-INF/view/home.jsp" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/WEB-INF/view/home.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/config/DemoSecurityConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/DemoController.class" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/DemoController.class" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/classes/com/luv2code/springsecurity/demo/controller/LoginController.class" />
-      <change beforePath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" afterPath="$PROJECT_DIR$/target/spring-security-demo/WEB-INF/view/home.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +77,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -637,12 +620,12 @@
       <workItem from="1520578116776" duration="1680000" />
       <workItem from="1520627745896" duration="598000" />
       <workItem from="1520644386903" duration="573000" />
-      <workItem from="1520719313406" duration="14759000" />
+      <workItem from="1520719313406" duration="14781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20218000" />
+    <option name="totallyTimeSpent" value="20240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="833" extended-state="6" />
@@ -1276,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
           <folding />
         </state>
       </provider>

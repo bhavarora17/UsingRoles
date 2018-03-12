@@ -68,6 +68,7 @@
 			<version>5.0.0.RELEASE</version>
 		</dependency>
 
+<!--
 		<dependency>
 			<groupId></groupId>
 			<artifactId></artifactId>
@@ -77,6 +78,7 @@
 			<groupId></groupId>
 			<artifactId></artifactId>
 		</dependency>
+-->
 
 
 
